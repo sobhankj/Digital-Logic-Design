@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ROG/Desktop/myCA5
+vbufcntQ
+Z0 !s110 1704227181
+!i10b 1
+!s100 7SojBCBHoOlLZ5Lmh4dZD2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IbOPXeA[Q9C[=fAbB6LZ3?1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim
+Z4 w1704226274
+Z5 8C:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/bufcntQ.vo
+Z6 FC:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/bufcntQ.vo
+!i122 8
+L0 32 879
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704227181.000000
+Z9 !s107 C:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/bufcntQ.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/bufcntQ.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+nbufcnt@q
+vhard_block
+R0
+!i10b 1
+!s100 VYO9@7h_jhZSOE>:cd2bV0
+R1
+IXOee8fBZeOY9aO]0]G7ol1
+R2
+R3
+R4
+R5
+R6
+!i122 8
+L0 912 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtb_Qbuf_cnt
+R0
+!i10b 1
+!s100 E1T57FalM2WHW?=gkDK=F2
+R1
+I?k=BbAlm@nIJAVd:^lJ562
+R2
+R3
+w1704227176
+8C:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/tb_Qbuf_cnt.v
+FC:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/tb_Qbuf_cnt.v
+!i122 9
+L0 3 16
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/tb_Qbuf_cnt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ROG/Desktop/myCA5/bufcnt/simulation/modelsim/tb_Qbuf_cnt.v|
+!i113 1
+R11
+R12
+ntb_@qbuf_cnt

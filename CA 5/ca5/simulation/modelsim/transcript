@@ -1,0 +1,28 @@
+vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /UUT=C:/Users/ROG/Desktop/myCA5/ca5/simulation/modelsim/ca5Q_v.sdo work.tb_Qca5
+# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/UUT=C:/Users/ROG/Desktop/myCA5/ca5/simulation/modelsim/ca5Q_v.sdo" work.tb_Qca5 
+# Start time: 23:58:13 on Jan 02,2024
+# Loading work.tb_Qca5
+# Loading work.ca5Q
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/ROG/Desktop/myCA5/ca5/simulation/modelsim/ca5Q_v.sdo
+# Loading instances from ca5Q_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/ROG/Desktop/myCA5/ca5/simulation/modelsim/ca5Q_v.sdo
+# Loading timing data from ca5Q_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Qca5 File: C:/Users/ROG/Desktop/myCA5/ca5/simulation/modelsim/tb_Qca5.v
+add wave -position end  sim:/tb_Qca5/CLK
+add wave -position end  sim:/tb_Qca5/RST
+add wave -position end  sim:/tb_Qca5/SERIN
+add wave -position end  sim:/tb_Qca5/SEROUT
+run -all
+quit -sim
+# End time: 23:58:46 on Jan 02,2024, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1

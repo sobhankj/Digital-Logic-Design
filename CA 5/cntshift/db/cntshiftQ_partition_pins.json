@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "co",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PO_sh[7]",
+					"strict" : false
+				},
+				{
+					"name" : "en_cnt",
+					"strict" : false
+				},
+				{
+					"name" : "ld",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_cnt",
+					"strict" : false
+				},
+				{
+					"name" : "init_sh",
+					"strict" : false
+				},
+				{
+					"name" : "rst_sh",
+					"strict" : false
+				},
+				{
+					"name" : "en_sh",
+					"strict" : false
+				},
+				{
+					"name" : "si",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

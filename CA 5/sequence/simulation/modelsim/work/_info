@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ROG/Desktop/myCA5
+vhard_block
+Z0 !s110 1704226582
+!i10b 1
+!s100 `U>g2ZVfeK?V9:1`S10gn3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA:[:bleibjZ[AQX]^?oC21
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim
+Z4 w1704225410
+Z5 8C:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/seqQ.vo
+Z6 FC:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/seqQ.vo
+!i122 4
+L0 416 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704226582.000000
+Z9 !s107 C:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/seqQ.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/seqQ.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vseqQ
+R0
+!i10b 1
+!s100 NaVnQ_YQ8;41XmR06hokc3
+R1
+IAF1F44C6G>S1oNlkZkok;3
+R2
+R3
+R4
+R5
+R6
+!i122 4
+L0 32 383
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nseq@q
+vtb_Qsqd
+R0
+!i10b 1
+!s100 D9GPG@]012G;;6SkBCNhX3
+R1
+IjJeNfoS49=j50DKD<SOK32
+R2
+R3
+w1704226578
+Z13 8C:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/tb_Qsqd.v
+Z14 FC:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/tb_Qsqd.v
+!i122 5
+Z15 L0 3 22
+R7
+r1
+!s85 0
+31
+R8
+Z16 !s107 C:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/tb_Qsqd.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ROG/Desktop/myCA5/sequence/simulation/modelsim/tb_Qsqd.v|
+!i113 1
+R11
+R12
+ntb_@qsqd
+vtb_sq
+!s110 1704118477
+!i10b 1
+!s100 XhM5E[PnnDU4fnRjJ;?3J1
+R1
+IZzDJVG864J9A]VjfJ@>WC3
+R2
+R3
+w1704118356
+R13
+R14
+!i122 1
+R15
+R7
+r1
+!s85 0
+31
+!s108 1704118477.000000
+R16
+R17
+!i113 1
+R11
+R12

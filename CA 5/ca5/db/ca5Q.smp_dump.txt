@@ -1,0 +1,17 @@
+
+State Machine - |ca5Q|sqd1:inst|ps
+Name ps.111 ps.110 ps.101 ps.100 ps.011 ps.010 ps.001 ps.000 
+ps.000 0 0 0 0 0 0 0 0 
+ps.001 0 0 0 0 0 0 1 1 
+ps.010 0 0 0 0 0 1 0 1 
+ps.011 0 0 0 0 1 0 0 1 
+ps.100 0 0 0 1 0 0 0 1 
+ps.101 0 0 1 0 0 0 0 1 
+ps.110 0 1 0 0 0 0 0 1 
+ps.111 1 0 0 0 0 0 0 1 
+
+State Machine - |ca5Q|controller1:inst3|pstate
+Name pstate.seq pstate.tr pstate.nt 
+pstate.seq 0 0 0 
+pstate.nt 1 0 1 
+pstate.tr 1 1 0 

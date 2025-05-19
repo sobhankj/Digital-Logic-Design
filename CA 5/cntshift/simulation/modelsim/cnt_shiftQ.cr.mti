@@ -1,0 +1,16 @@
+C:/Users/ROG/Desktop/myCA5/cntshift/simulation/modelsim/cntshiftQ.vo {1 {vlog -work work -stats=none C:/Users/ROG/Desktop/myCA5/cntshift/simulation/modelsim/cntshiftQ.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cntshiftQ
+-- Compiling module hard_block
+
+Top level modules:
+	cntshiftQ
+
+} {} {}} C:/Users/ROG/Desktop/myCA5/cntshift/simulation/modelsim/tb_Qcnt_shift.v {1 {vlog -work work -stats=none C:/Users/ROG/Desktop/myCA5/cntshift/simulation/modelsim/tb_Qcnt_shift.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_Qcnt_shift
+
+Top level modules:
+	tb_Qcnt_shift
+
+} {} {}}

@@ -1,0 +1,156 @@
+|ca5Q
+sout <= buf_cnt1:inst2.SO
+clock => buf_cnt1:inst2.clk
+clock => controller1:inst3.clk
+clock => sqd1:inst.clk
+clock => cnt_shift1:inst1.clk
+reset => buf_cnt1:inst2.rst
+reset => controller1:inst3.rst
+reset => sqd1:inst.rst
+reset => cnt_shift1:inst1.rst_sh
+reset => cnt_shift1:inst1.rst_cnt
+serin => sqd1:inst.inp
+serin => cnt_shift1:inst1.si
+serin => buf_cnt1:inst2.SI
+
+
+|ca5Q|buf_cnt1:inst2
+clk => SO~reg0.CLK
+clk => SO~en.CLK
+clk => PO[0].CLK
+clk => PO[1].CLK
+clk => PO[2].CLK
+clk => PO[3].CLK
+clk => PO[4].CLK
+clk => PO[5].CLK
+clk => PO[6].CLK
+clk => PO[7].CLK
+rst => PO[0].ACLR
+rst => PO[1].ACLR
+rst => PO[2].ACLR
+rst => PO[3].ACLR
+rst => PO[4].ACLR
+rst => PO[5].ACLR
+rst => PO[6].ACLR
+rst => PO[7].ACLR
+ld => PO.OUTPUTSELECT
+ld => PO.OUTPUTSELECT
+ld => PO.OUTPUTSELECT
+ld => PO.OUTPUTSELECT
+ld => PO.OUTPUTSELECT
+ld => PO.OUTPUTSELECT
+ld => PO.OUTPUTSELECT
+ld => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => PO.OUTPUTSELECT
+en_cnt => co.OUTPUTSELECT
+en_tri => SO~en.DATAIN
+SI => SO~reg0.DATAIN
+PI[0] => PO.DATAB
+PI[1] => PO.DATAB
+PI[2] => PO.DATAB
+PI[3] => PO.DATAB
+PI[4] => PO.DATAB
+PI[5] => PO.DATAB
+PI[6] => PO.DATAB
+PI[7] => PO.DATAB
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+SO <= SO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ca5Q|controller1:inst3
+clk => pstate~1.DATAIN
+rst => pstate~3.DATAIN
+w_seq => Selector1.IN2
+w_seq => Selector0.IN1
+co_cnt1 => Selector2.IN2
+co_cnt1 => Selector1.IN1
+co_cnt2 => Selector0.IN2
+co_cnt2 => Selector2.IN1
+init_sh <= ld_cnt1.DB_MAX_OUTPUT_PORT_TYPE
+en_sh <= ld_cnt2.DB_MAX_OUTPUT_PORT_TYPE
+ld_cnt1 <= ld_cnt1.DB_MAX_OUTPUT_PORT_TYPE
+en_cnt1 <= ld_cnt2.DB_MAX_OUTPUT_PORT_TYPE
+ld_cnt2 <= ld_cnt2.DB_MAX_OUTPUT_PORT_TYPE
+en_cnt2 <= en_buff.DB_MAX_OUTPUT_PORT_TYPE
+en_buff <= en_buff.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ca5Q|sqd1:inst
+clk => ps~1.DATAIN
+rst => ps~3.DATAIN
+inp => ns.011.DATAB
+inp => ns.100.DATAB
+inp => ns.101.DATAB
+inp => ns.110.DATAB
+inp => Selector0.IN2
+inp => Selector2.IN1
+inp => ns.111.DATAB
+inp => Selector1.IN1
+w <= w.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ca5Q|cnt_shift1:inst1
+clk => PO_cnt[0].CLK
+clk => PO_cnt[1].CLK
+clk => PO_cnt[2].CLK
+clk => PO_sh[0]~reg0.CLK
+clk => PO_sh[1]~reg0.CLK
+clk => PO_sh[2]~reg0.CLK
+clk => PO_sh[3]~reg0.CLK
+clk => PO_sh[4]~reg0.CLK
+clk => PO_sh[5]~reg0.CLK
+clk => PO_sh[6]~reg0.CLK
+clk => PO_sh[7]~reg0.CLK
+rst_sh => PO_sh[0]~reg0.ACLR
+rst_sh => PO_sh[1]~reg0.ACLR
+rst_sh => PO_sh[2]~reg0.ACLR
+rst_sh => PO_sh[3]~reg0.ACLR
+rst_sh => PO_sh[4]~reg0.ACLR
+rst_sh => PO_sh[5]~reg0.ACLR
+rst_sh => PO_sh[6]~reg0.ACLR
+rst_sh => PO_sh[7]~reg0.ACLR
+en_sh => PO_sh.OUTPUTSELECT
+en_sh => PO_sh.OUTPUTSELECT
+en_sh => PO_sh.OUTPUTSELECT
+en_sh => PO_sh.OUTPUTSELECT
+en_sh => PO_sh.OUTPUTSELECT
+en_sh => PO_sh.OUTPUTSELECT
+en_sh => PO_sh.OUTPUTSELECT
+en_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+init_sh => PO_sh.OUTPUTSELECT
+si => PO_sh.DATAB
+rst_cnt => PO_cnt[0].ACLR
+rst_cnt => PO_cnt[1].ACLR
+rst_cnt => PO_cnt[2].ACLR
+en_cnt => PO_cnt.OUTPUTSELECT
+en_cnt => PO_cnt.OUTPUTSELECT
+en_cnt => PO_cnt.OUTPUTSELECT
+en_cnt => co.OUTPUTSELECT
+ld => PO_cnt.OUTPUTSELECT
+ld => PO_cnt.OUTPUTSELECT
+ld => PO_cnt.OUTPUTSELECT
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[0] <= PO_sh[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[1] <= PO_sh[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[2] <= PO_sh[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[3] <= PO_sh[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[4] <= PO_sh[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[5] <= PO_sh[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[6] <= PO_sh[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PO_sh[7] <= PO_sh[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
